@@ -1,0 +1,30 @@
+[2026-07-10T12:53:36.964Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.2f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 8564 --ipc-path Unity-Upm-8564 -l 2 --log-file 'C:\\Projetos Unity\\Obstacle Dodge/Logs/upm.log'
+[2026-07-10T12:53:37.016Z][INFO] IPC server started (IPC path=Unity-Upm-8564).
+[2026-07-10T12:53:37.017Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-8564.
+[2026-07-10T12:53:41.016Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T12:53:41.208Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T12:53:41.227Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-10T12:53:41.273Z][INFO] config:project:get-registries --> 200 (46 ms)
+[2026-07-10T12:53:41.704Z][INFO] project:list-packages --> 200 (689 ms)
+[2026-07-10T12:53:41.881Z][INFO] project:list-packages --> 200 (674 ms)
+[2026-07-10T12:53:45.905Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T12:53:45.947Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T12:53:46.355Z][INFO] project:list-packages --> 200 (451 ms)
+[2026-07-10T12:53:46.405Z][INFO] project:list-packages --> 200 (458 ms)
+[2026-07-10T12:53:48.505Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T12:53:48.545Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T12:53:49.121Z][INFO] project:list-packages --> 200 (616 ms)
+[2026-07-10T12:53:49.195Z][INFO] project:list-packages --> 200 (650 ms)
+[2026-07-10T12:53:49.453Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-10T12:53:49.460Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-07-10T12:53:53.006Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-10T12:53:53.334Z][INFO] project:list-packages --> 200 (328 ms)
