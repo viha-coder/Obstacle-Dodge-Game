@@ -1,11 +1,11 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.5/staging' branch; Version is '6000.5.2f1 (eb73d3b415a1) revision 15430611'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pt' Physical Memory: 8144 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-07-10T12:42:39Z
-[Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-guilh" at "2026-07-10T12:42:39.0740266Z"
+Date: 2026-07-10T13:38:44Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-guilh" at "2026-07-10T13:38:44.8549336Z"
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Unity.exe
@@ -19,9 +19,9 @@ C:/Projetos Unity/Obstacle Dodge
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-56875
+57351
 -parentPid
-9448
+2476
 -analyticsCloudUserId
 anonymous
 -analyticsLocalProjectId
@@ -76,12 +76,12 @@ C:/Projetos Unity/Obstacle Dodge
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [8768]  Target information:
+Player connection [12632]  Target information:
 
-Player connection [8768]  * "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 3337320219 [EditorId] 3337320219 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L62L49H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12632]  * "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 50431778 [EditorId] 50431778 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L62L49H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8768] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8768] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12632] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12632] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 1
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -93,12 +93,29 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.96 ms, found 4 plugins.
 Initialize engine version: 6000.5.2f1 (eb73d3b415a1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Projetos Unity/Obstacle Dodge/Assets
 Forcing GfxDevice: Direct3D 12
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-guilh"
+[Licensing::IpcConnector] LicenseClient-guilh channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-guilh-6000.5.2" at "2026-07-10T13:38:47.3752541Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4060, path: "C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              e81cf13210ad47dea0e3b7245d61e158
+  Correlation Id:          0ab8da3af247e86e87bd92637d9711b4
+  External correlation Id: 4717924801908038038
+  Machine Id:              e3J6Y/ahlV2bW0bN5A/Pmvej0gQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-guilh-6000.5.2" (connect: 0.01s, validation: 0.44s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-guilh-6000.5.2-notifications" at "2026-07-10T13:38:47.8261284Z"
+[Licensing::Module] Licensing Background thread has ended after 2.97s
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
     Version:         Direct3D 12 [level 12.1]
@@ -112,55 +129,38 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004189 seconds.
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-guilh"
-[Licensing::IpcConnector] LicenseClient-guilh channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-guilh-6000.5.2" at "2026-07-10T12:42:42.250676Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 11376, path: "C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
+Registered in 0.005213 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.1+9fbee8e
-  Session Id:              4ace79ca03714e979d57f0621a46e8cb
-  Correlation Id:          16bdda54837dcd67e006d0550164f520
-  External correlation Id: 4556303277515244117
-  Machine Id:              e3J6Y/ahlV2bW0bN5A/Pmvej0gQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-guilh-6000.5.2" (connect: 0.00s, validation: 0.05s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-guilh-6000.5.2-notifications" at "2026-07-10T12:42:42.3088508Z"
-[Licensing::Module] Licensing Background thread has ended after 3.25s
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.538 seconds
-Domain Reload Profiling: 1465ms
-	BeginReloadAssembly (243ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (119ms)
-	LoadAllAssembliesAndSetupDomain (528ms)
-		LoadAssemblies (235ms)
-		AnalyzeDomain (393ms)
-			TypeCache.Refresh (392ms)
-				TypeCache.ScanAssembly (371ms)
-	FinalizeReload (541ms)
+- Finished resetting the current domain, in  0.469 seconds
+Domain Reload Profiling: 1254ms
+	BeginReloadAssembly (202ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (438ms)
+		LoadAssemblies (195ms)
+		AnalyzeDomain (315ms)
+			TypeCache.Refresh (313ms)
+				TypeCache.ScanAssembly (288ms)
+	FinalizeReload (472ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (141ms)
-			ProcessInitializeOnLoadMethodAttributes (144ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
@@ -179,7 +179,7 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.31 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -191,53 +191,108 @@ Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.68 ms, found 4 plugins.
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.173 seconds
-Domain Reload Profiling: 2585ms
-	BeginReloadAssembly (275ms)
-		DisableScriptedObjects (8ms)
-		CreateAndSetChildDomain (40ms)
+- Finished resetting the current domain, in  1.279 seconds
+Domain Reload Profiling: 2686ms
+	BeginReloadAssembly (289ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (38ms)
 	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (101ms)
-	LoadAllAssembliesAndSetupDomain (999ms)
-		LoadAssemblies (592ms)
-		AnalyzeDomain (371ms)
-			TypeCache.Refresh (268ms)
-				TypeCache.ScanAssembly (246ms)
-			BuildScriptInfoCaches (88ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1174ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (973ms)
+		LoadAssemblies (633ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (225ms)
+			BuildScriptInfoCaches (87ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1280ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (539ms)
-			ProcessInitializeOnLoadMethodAttributes (136ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (543ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
 			AfterProcessingInitializeOnLoad (13ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.28 ms, found 4 plugins.
 Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6820 unused Assets / (6.4 MB). Loaded Objects now: 7641.
-Memory consumption went from 316.2 MB to 309.8 MB.
-Total: 13.217000 ms (FindLiveObjects: 1.074300 ms CreateObjectMapping: 2.923500 ms MarkObjects: 5.826500 ms  DeleteObjects: 3.390000 ms)
-
 Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6820 unused Assets / (7.3 MB). Loaded Objects now: 7641.
+Memory consumption went from 316.7 MB to 309.4 MB.
+Total: 256.054500 ms (FindLiveObjects: 4.991300 ms CreateObjectMapping: 5.808700 ms MarkObjects: 235.416400 ms  DeleteObjects: 4.481200 ms)
+
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 4.28 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.80 ms, found 4 plugins.
 Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (2.7 MB). Loaded Objects now: 7641.
-Memory consumption went from 308.8 MB to 306.2 MB.
-Total: 14.821400 ms (FindLiveObjects: 1.642700 ms CreateObjectMapping: 1.448400 ms MarkObjects: 11.236900 ms  DeleteObjects: 0.491800 ms)
+Memory consumption went from 309.3 MB to 306.6 MB.
+Total: 9.357700 ms (FindLiveObjects: 0.420300 ms CreateObjectMapping: 1.248400 ms MarkObjects: 7.227300 ms  DeleteObjects: 0.460700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: Editor is closing down
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-10T13:44:34.6906168Z
+  Time since last request: 329968.72634390002349 seconds.
+  importAddress: GUID: 5278de042f7c00f498d665f6e9006182 - Path: Assets/Scripts/Scorer.cs - Importer: PreviewImporter
+Importing 'GUID: 5278de042f7c00f498d665f6e9006182 - Path: Assets/Scripts/Scorer.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5278de042f7c00f498d665f6e9006182' -> (Import Result ID: '2ce4fe776b3d20896171db7415aba0c9') in 0.260 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7bfd1ec64d6172617d0482574ba22bf1 DependenciesID=119223cf1a2d021b613eed04cfb52979 StaticDependenciesID=fc53f212c869803d89a833a21a4f4fbc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-10T13:45:18.5241041Z
+  Time since last request: 43.5502254 seconds.
+  importAddress: GUID: 394a34c61388a054a95c16f21325ecec - Path: Assets/Scripts/mover.cs - Importer: PreviewImporter
+Importing 'GUID: 394a34c61388a054a95c16f21325ecec - Path: Assets/Scripts/mover.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 394a34c61388a054a95c16f21325ecec' -> (Import Result ID: 'f2662a71d72f55b3e46ee29a6005d63d') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce6e9088b85c30df4cfc680e4411af47 DependenciesID=24bbc7a3b7a8905fbcc06f1071dc0d4b StaticDependenciesID=f7c86f855bd41854f8b7eee5734e2010 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.61 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6808 unused Assets / (6.0 MB). Loaded Objects now: 7644.
+Memory consumption went from 315.1 MB to 309.1 MB.
+Total: 40.507700 ms (FindLiveObjects: 1.885000 ms CreateObjectMapping: 8.879100 ms MarkObjects: 23.959500 ms  DeleteObjects: 5.782000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-10T13:57:22.0773981Z
+  Time since last request: 723.5070753 seconds.
+  importAddress: GUID: a6fe8f5e82a789d4db90ade715bbdb3d - Path: Assets/Scripts/Spinner.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a6fe8f5e82a789d4db90ade715bbdb3d - Path: Assets/Scripts/Spinner.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a6fe8f5e82a789d4db90ade715bbdb3d' -> (Import Result ID: 'c0a23404d74b838977336a1a47ba503f') in 0.329 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff0cde8850d90cade247c89ed5c484e1 DependenciesID=2e682d14e04179a8c87802a02e8d6980 StaticDependenciesID=52c0e9ddaaf28d63a3197d70d4a263f0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-10T13:57:22.7172501Z
+  Time since last request: 0.2796515 seconds.
+  importAddress: GUID: a6fe8f5e82a789d4db90ade715bbdb3d - Path: Assets/Scripts/Spinner.cs - Importer: PreviewImporter
+Importing 'GUID: a6fe8f5e82a789d4db90ade715bbdb3d - Path: Assets/Scripts/Spinner.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a6fe8f5e82a789d4db90ade715bbdb3d' -> (Import Result ID: 'ecd4f0440c17e6a8fcf7f7c2c0b2cd7e') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a653442af208b7d34383496265595e2 DependenciesID=23e7e13ed908ce5836c7e5bb96b66358 StaticDependenciesID=106386aabe7cd94da684e2a06c1e6a5c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6807 unused Assets / (6.1 MB). Loaded Objects now: 7643.
+Memory consumption went from 316.4 MB to 310.3 MB.
+Total: 12.877500 ms (FindLiveObjects: 0.801400 ms CreateObjectMapping: 3.199500 ms MarkObjects: 5.529600 ms  DeleteObjects: 3.346000 ms)
+
+Prepare: number of updated asset objects reloaded= 0

@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.5/staging' branch; Version is '6000.5.2f1 (eb73d3b415a1) revision 15430611'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-guilh" at "2026-07-10T12:42:20.8424139Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-guilh" at "2026-07-10T13:35:21.7071786Z"
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'pt' Physical Memory: 8144 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-07-10T12:42:20Z
+Date: 2026-07-10T13:35:21Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Unity.exe
@@ -19,9 +19,9 @@ production
 -licensingIpc
 LicenseClient-guilh
 -hubSessionId
-e85a04c9-59c2-4374-a084-9ab87b05b9ec
+90239a3c-9937-481d-bb42-9acf9175ebec
 -accessToken
-P_Yf49DalaWF9n8a15d_zlFqe6S6IpzXn5avJXv_YCc004f
+U_R9_KkAnaxXBVBFGk1jRLt5WyceHw_Xcavd8q_57qg004f
 Successfully changed project path to: C:\Projetos Unity\Obstacle Dodge
 C:/Projetos Unity/Obstacle Dodge
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -60,16 +60,16 @@ C:/Projetos Unity/Obstacle Dodge
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [7864]  Target information:
+Player connection [2496]  Target information:
 
-Player connection [7864]  * "[IP] 192.168.0.4 [Port] 55504 [Flags] 2 [Guid] 687985279 [EditorId] 687985279 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L62L49H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2496]  * "[IP] 192.168.0.4 [Port] 55504 [Flags] 2 [Guid] 3316421376 [EditorId] 3316421376 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L62L49H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7864] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7864] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2496] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2496] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-9448" after 0.4 seconds.
+[Package Manager] Connected to IPC stream "Upm-2476" after 1.2 seconds.
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
@@ -77,33 +77,33 @@ Input System module state changed to: Initialized.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-guilh"
 [Licensing::IpcConnector] LicenseClient-guilh channel disconnected successfully.
 [Licensing::IpcConnector] Channel LicenseClient-guilh-6000.5.2 doesn't exist
-[Licensing::Module] Successfully launched the LicensingClient (PId: 11376)
+[Licensing::Module] Successfully launched the LicensingClient (PId: 4060)
 Starting IPC server.
 Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-guilh-6000.5.2, press Ctrl-C to exit.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-guilh-6000.5.2" at "2026-07-10T12:42:22.9859835Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 11376, path: "C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-guilh-6000.5.2" at "2026-07-10T13:35:44.3023183Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4060, path: "C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              07c60daea27245ea9114b6d44e97a7e3
-  Correlation Id:          16bdda54837dcd67e006d0550164f520
-  External correlation Id: 2698655733566201235
+  Session Id:              84b7f487165741a191a672b00ea40227
+  Correlation Id:          0ab8da3af247e86e87bd92637d9711b4
+  External correlation Id: 550999025539583301
   Machine Id:              e3J6Y/ahlV2bW0bN5A/Pmvej0gQ=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-guilh-6000.5.2" (connect: 0.37s, validation: 0.42s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-guilh-6000.5.2-notifications" at "2026-07-10T12:42:23.4129776Z"
-[Licensing::Module] Connected to LicensingClient (PId: 11376, launch time: 0.01, total connection time: 0.80s)
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-guilh-6000.5.2" (connect: 4.37s, validation: 0.29s, handshake: 0.33s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-guilh-6000.5.2-notifications" at "2026-07-10T13:35:44.9262842Z"
+[Licensing::Module] Connected to LicensingClient (PId: 4060, launch time: 0.01, total connection time: 4.99s)
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated the access token P_Yf49Dala...
+[Licensing::Module] Successfully updated the access token U_R9_KkAna...
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 4674222064182-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-[Licensing::Client] Successfully updated license, isAsync: True, time: 0.03
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 2.69s
-[Licensing::Module] Licensing is initialized (took 1.93s).
+[Licensing::Module] Licensing Background thread has ended after 23.36s
+[Licensing::Module] Licensing is initialized (took 20.83s).
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -112,6 +112,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 1 unused hashed content files
 Initialize engine version: 6000.5.2f1 (eb73d3b415a1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Projetos Unity/Obstacle Dodge/Assets
@@ -135,7 +136,7 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
@@ -143,30 +144,30 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003894 seconds.
+Registered in 0.083252 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.516 seconds
-Domain Reload Profiling: 1323ms
-	BeginReloadAssembly (293ms)
-		CreateAndSetChildDomain (19ms)
+- Finished resetting the current domain, in  4.574 seconds
+Domain Reload Profiling: 8892ms
+	BeginReloadAssembly (435ms)
+		CreateAndSetChildDomain (12ms)
 	RebuildCommonClasses (6ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (388ms)
-		LoadAssemblies (257ms)
-		AnalyzeDomain (282ms)
-			TypeCache.Refresh (280ms)
-				TypeCache.ScanAssembly (263ms)
-	FinalizeReload (520ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (460ms)
+	LoadAllAssembliesAndSetupDomain (3381ms)
+		LoadAssemblies (451ms)
+		AnalyzeDomain (3221ms)
+			TypeCache.Refresh (3220ms)
+				TypeCache.ScanAssembly (3183ms)
+	FinalizeReload (4577ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (117ms)
-			ProcessInitializeOnLoadAttributes (118ms)
-			ProcessInitializeOnLoadMethodAttributes (188ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (628ms)
+			ProcessInitializeOnLoadMethodAttributes (3718ms)
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
 [Package Manager] Restoring resolved packages state from cache
@@ -235,7 +236,7 @@ Application.AssetDatabase Initial Refresh Start
     com.unity.collections@6.5.0 (location: C:\Projetos Unity\Obstacle Dodge\Library\PackageCache\com.unity.collections@a43cabe808ca)
     com.unity.mathematics@1.4.0 (location: C:\Projetos Unity\Obstacle Dodge\Library\PackageCache\com.unity.mathematics@981956d94fb6)
 [Subsystems] No new subsystems found in resolved package list.
-[Package Manager] Done registering packages in 0.04 seconds
+[Package Manager] Done registering packages in 0.07 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 info: Microsoft.Hosting.Lifetime[14]
@@ -253,7 +254,7 @@ info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 52.1646ms
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 204.7139ms
 Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
 WorkingDir: C:/Projetos Unity/Obstacle Dodge
 info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
@@ -271,102 +272,179 @@ info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 1215.2451ms
-ExitCode: 0 Duration: 4s163ms
-[762/970    1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (4.10 seconds), 1 items updated, 970 evaluated
-AssetDatabase: script compilation time: 4.921438s
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 626.3789ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 139 defines and 365 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 141 defines and 342 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with Library\Bee\artifacts\1900b0aE.dag\Unity.Collections.dll
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Scripting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null with C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Managed\UnityEngine\Unity.Scripting.dll
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil.Rocks, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@6bb9aca3ef38\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 10248.4714ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 10249.5654ms
+ExitCode: 0 Duration: 1m:11s
+[443/970    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[BUSY      16s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[BUSY      26s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[BUSY      36s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[BUSY      46s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[962/970   48s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[BUSY       6s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+[964/970   10s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 141 defines and 342 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[965/970   10s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 139 defines and 365 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[966/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[967/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (71.88 seconds - 0:01:11), 6 items updated, 970 evaluated
+AssetDatabase: script compilation time: 77.712198s
+[Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
+Total cache size 124196136
+Total cache size after purge 124196136, took 00:00:00.3637681
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 4.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 290.96 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 150.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.52 ms, found 4 plugins.
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.144 seconds
-Domain Reload Profiling: 5759ms
-	BeginReloadAssembly (556ms)
-		DisableScriptedObjects (72ms)
-		CreateAndSetChildDomain (207ms)
+- Finished resetting the current domain, in 16.589 seconds
+Domain Reload Profiling: 25394ms
+	BeginReloadAssembly (368ms)
+		DisableScriptedObjects (39ms)
+		CreateAndSetChildDomain (59ms)
 	RebuildCommonClasses (10ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (93ms)
-	LoadAllAssembliesAndSetupDomain (931ms)
-		LoadAssemblies (636ms)
-		AnalyzeDomain (323ms)
-			TypeCache.Refresh (225ms)
-				TypeCache.ScanAssembly (211ms)
-			BuildScriptInfoCaches (86ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (8309ms)
+		LoadAssemblies (8004ms)
+		AnalyzeDomain (336ms)
+			TypeCache.Refresh (237ms)
+				TypeCache.ScanAssembly (219ms)
+			BuildScriptInfoCaches (87ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (4147ms)
+	FinalizeReload (16590ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (3306ms)
-			ProcessInitializeOnLoadMethodAttributes (226ms)
-			AfterProcessingInitializeOnLoad (18ms)
-		AwakeInstancesAfterBackupRestoration (36ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (6775ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (15ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
 Starting new worker id: 0 with log in C:/Projetos Unity/Obstacle Dodge/Logs/AssetImportWorkerHW0.log
 
-Asset Pipeline Refresh (id=cd0d32b49b721934482d2810e03c19f1): Total: 12.099 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=b02bdb8f5ad1cba4ca2dcda3371acb35): Total: 143.200 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=5066 ms
-		Asset DB Callback time: managed=114 ms, native=46 ms
-		Scripting: domain reloads=1, domain reload time=1855 ms, compile time=4924 ms, other=91 ms
+		Asset DB Process Time: managed=0 ms, native=55296 ms
+		Asset DB Callback time: managed=873 ms, native=168 ms
+		Scripting: domain reloads=1, domain reload time=8994 ms, compile time=77714 ms, other=153 ms
 		Project Asset Count: scripts=1375, non-scripts=2376
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 49.724ms
-	ApplyChangesToAssetFolders: 0.967ms
-	Scan: 179.995ms
-	Collect global state as custom dependencies: 18.491ms
-	CategorizeScriptCompilationAssets: 111.301ms
-	ProcessAssetsWithTransientArtifactChanges: 108.465ms
-	CategorizeAssets: 57.009ms
-	CompileScripts: 4924.205ms
-	ImportOutOfDateAssets: 4255.186ms (4179.109ms without children)
-		UnloadImportedAssets: 1.137ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.163ms
-		ImportSchedulerStart: 73.729ms
-	PostProcessAllAssets: 114.098ms
-		MonoPostProcessAllAssets: 114.013ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 34.148ms
-			SyncVS.PostprocessSyncProject 28.487ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.309ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.235ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.292ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.833ms
-			CinemachineSettings.OnPostprocessAllAssets 0.738ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.504ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.480ms
-			DomainReloadProcessor.OnPostprocessAllAssets 0.428ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.417ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.354ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.340ms
-	UnloadStreamsBegin: 5.074ms
-	PersistCurrentRevisions: 0.163ms
-	GenerateScriptTypeHashes: 2.471ms
-	GenerateScriptTypeSerializationHashes: 4.692ms
-	Untracked: 2265.621ms
+	InvokePackagesCallback: 171.293ms
+	ApplyChangesToAssetFolders: 0.899ms
+	Scan: 32159.607ms
+	Collect global state as custom dependencies: 46.675ms
+	CategorizeScriptCompilationAssets: 2365.922ms
+	ProcessAssetsWithTransientArtifactChanges: 110.423ms
+	CategorizeAssets: 55.943ms
+	CompileScripts: 77713.760ms
+	ImportOutOfDateAssets: 17019.307ms (16910.753ms without children)
+		UnloadImportedAssets: 1.078ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.121ms
+		ImportSchedulerStart: 106.311ms
+	PostProcessAllAssets: 873.835ms
+		MonoPostProcessAllAssets: 873.771ms
+			SyncVS.PostprocessSyncProject 772.065ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 12.337ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.155ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.997ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.855ms
+			CinemachineSettings.OnPostprocessAllAssets 0.452ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.437ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.376ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.315ms
+			DomainReloadProcessor.OnPostprocessAllAssets 0.240ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.221ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.212ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.167ms
+	UnloadStreamsBegin: 4.681ms
+	PersistCurrentRevisions: 0.130ms
+	GenerateScriptTypeHashes: 1.796ms
+	GenerateScriptTypeSerializationHashes: 3.264ms
+	Untracked: 12629.847ms
 
 Application.AssetDatabase Initial Refresh End
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Scanning for USB devices : 1.381ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
+Worker ready: AssetImportWorkerHW0 0
+Scanning for USB devices : 215.638ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Obstacle Dodge
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6832 unused Assets / (5.7 MB). Loaded Objects now: 7741.
-Memory consumption went from 429.7 MB to 424.0 MB.
-Total: 27.540100 ms (FindLiveObjects: 1.229500 ms CreateObjectMapping: 4.434000 ms MarkObjects: 13.707400 ms  DeleteObjects: 8.162000 ms)
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/_Recovery/0.unity'
+	Deserialize:            575.420 ms
+	Integration:            4407.775 ms
+	Integration of assets:  0.103 ms
+	Thread Wait Time:       -0.085 ms
+	Total Operation Time:   4983.213 ms
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 6833 unused Assets / (7.4 MB). Loaded Objects now: 7815.
+Memory consumption went from 423.5 MB to 416.1 MB.
+Total: 107.023700 ms (FindLiveObjects: 1.084000 ms CreateObjectMapping: 4.769100 ms MarkObjects: 81.427400 ms  DeleteObjects: 19.739500 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
-Worker ready: AssetImportWorkerHW0 0
 [LAYOUT] About to save layout C:\Projetos Unity\Obstacle Dodge\UserSettings\Layouts\default-6000.dwlt
 [LAYOUT] About to save layout C:/Users/guilh/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
 [MODES] ModeService[default].InitializeCurrentMode
@@ -374,58 +452,1591 @@ Worker ready: AssetImportWorkerHW0 0
 This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
 <RI> Initializing input.
 <RI> Input initialized.
-[Project] Loading completed in 31.637 seconds
-	Project init time: 				19.234 seconds
+[Project] Loading completed in 249.053 seconds
+	Project init time: 				220.987 seconds
 		Template init time: 		0.000 seconds
-		Package Manager init time: 		2.382 seconds
-		Asset Database init time: 		0.560 seconds
-		Global illumination init time: 	0.015 seconds
-		Assemblies load time: 			1.440 seconds
-		Unity extensions init time: 	0.055 seconds
-		Asset Database refresh time: 	12.099 seconds
-	Scene opening time: 			9.844 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1783687372562,"processId":9448,"projectLoad":31.6367902,"projectInit":19.234436,"templateInit":0.0,"packageManagerInit":2.3819731,"assetDatabaseInit":0.5599345,"globalIlluminationInit":0.0147363,"assembliesLoad":1.4399674,"unityExtensionsInit":0.0546826,"assetDatabaseRefresh":12.0993332,"sceneOpening":9.8440234}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1783687372595,"processId":9448,"editorVersion":"6000.5.2f1 (eb73d3b415a1)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
-Asset Pipeline Refresh (id=746348a0f5bc63241894692f23dba06a): Total: 0.240 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+		Package Manager init time: 		21.983 seconds
+		Asset Database init time: 		15.997 seconds
+		Global illumination init time: 	0.057 seconds
+		Assemblies load time: 			11.747 seconds
+		Unity extensions init time: 	0.148 seconds
+		Asset Database refresh time: 	143.200 seconds
+	Scene opening time: 			26.858 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1783690770655,"processId":2476,"projectLoad":249.05330569999999,"projectInit":220.9868846,"templateInit":0.0,"packageManagerInit":21.9826491,"assetDatabaseInit":15.9973037,"globalIlluminationInit":0.0574339,"assembliesLoad":11.746572,"unityExtensionsInit":0.1481232,"assetDatabaseRefresh":143.1998974,"sceneOpening":26.8576731}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1783690770705,"processId":2476,"editorVersion":"6000.5.2f1 (eb73d3b415a1)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=bf37fea2f550a4146981464e63e0e20a): Total: 0.234 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
 GPU Resident Drawer created.
 Start Indexing on Editor startup
 [Indexing] Starting Initial Indexing for Assets
-Created GICache directory at C:/Users/guilh/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.072s, timestamps: [32.267 - 32.339]
+Created GICache directory at C:/Users/guilh/AppData/LocalLow/Unity/Caches/GiCache. Took: 1.112s, timestamps: [250.017 - 251.128]
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "P_Yf49Da"... (expires: 2026-07-10T13:27:43Z)
+[Licensing::Module] Successfully updated access token: "U_R9_KkA"... (expires: 2026-07-10T15:27:10Z)
 TrimDiskCacheJob: Current cache size 0mb
-MonoPathRemapper: Attempts to remap: 46568; Successful remaps: 19586
-Serialized file version minimum: 23, current 23
-[LAYOUT] About to save layout C:\Projetos Unity\Obstacle Dodge\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/guilh/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
-[Physics::Module] Cleanup current backend.
-[Physics::Module] Id: 0xf2b8ea05
-Input System module state changed to: ShutdownInProgress.
-Input Polling Thread exited.
-Input System module state changed to: Shutdown.
-[Licensing::IpcConnector] LicenseClient-guilh-6000.5.2-notifications channel disconnected successfully.
-[Licensing::IpcConnector] LicenseClient-guilh-6000.5.2 channel disconnected successfully.
-Shut down.
-AcceleratorClientConnectionCallback - disconnected - :0
-Cleanup mono
-CodeReloadManager destroyed
-Leak Detected : Persistent allocates 401 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
-abort_threads: Failed aborting id: 0000000000002644, mono_thread_manage will ignore it
+[Licensing::Client] Successfully resolved entitlement details
+[Worker0] Imported GUID: 5278de042f7c00f498d665f6e9006182 - Path: Assets/Scripts/Scorer.cs - Importer: PreviewImporter -> (ImportResultId: '2ce4fe776b3d20896171db7415aba0c9') in 0.2828166 seconds
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Welcome to the Game!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:19)
+mover:Start () (at Assets/Scripts/mover.cs:9)
 
-abort_threads: Failed aborting id: 0000000000002644, mono_thread_manage will ignore it
+(Filename: Assets/Scripts/mover.cs Line: 19)
 
-debugger-agent: Unable to listen on 3672
-Checking for leaked weakptr:
-  Found no leaked weakptrs.
-[Package Manager] Server process was shutdown
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1783687487039,"processId":9448,"allocatedMemory":54119964,"memoryLabels":[{"Default":232358},{"Permanent":15516},{"NewDelete":67581},{"Thread":4197560},{"Manager":2322645},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":855449},{"Material":2552},{"GfxDevice":66776},{"GfxThread":360},{"Animation":952},{"Audio":1256},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":63984},{"Input":42840},{"JobScheduler":256},{"TextLib":11485},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1590868},{"BaseObject":1676009},{"Resource":1208},{"Renderer":32216},{"Transform":4685},{"File":18858},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9559},{"StaticString":3808},{"Utility":2672362},{"Curl":48},{"PoolAlloc":2840},{"AI":80},{"TypeTree":17165},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7096},{"WebRequest":8631},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33683340},{"Camera":17},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":763200},{"CoreStats":13688},{"Identifiers":6768},{"Gui":267608},{"EditorUtility":223591},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4749979},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35345},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3480},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Use Arrow Keys or WASD to Move
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:20)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 20)
+
+Dodge the Obstacles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:21)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 21)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You've bumped into a thing this many times: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            182.530 ms
+	Integration:            255.853 ms
+	Integration of assets:  0.366 ms
+	Thread Wait Time:       -0.294 ms
+	Total Operation Time:   438.454 ms
+Unloading 80 unused Assets / (18.2 MB). Loaded Objects now: 8894.
+Memory consumption went from 0.62 GB to 0.60 GB.
+Total: 67.660100 ms (FindLiveObjects: 0.561800 ms CreateObjectMapping: 1.115700 ms MarkObjects: 59.525100 ms  DeleteObjects: 6.456000 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+[Worker0] Imported GUID: 394a34c61388a054a95c16f21325ecec - Path: Assets/Scripts/mover.cs - Importer: PreviewImporter -> (ImportResultId: 'f2662a71d72f55b3e46ee29a6005d63d') in 0.0460548 seconds
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Welcome to the Game!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:19)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 19)
+
+Use Arrow Keys or WASD to Move
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:20)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 20)
+
+Dodge the Obstacles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:21)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 21)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You've bumped into a thing this many times: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 6
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.863 ms
+	Integration:            248.217 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   249.091 ms
+Unloading 3 unused Assets / (0.7 MB). Loaded Objects now: 8966.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 28.348100 ms (FindLiveObjects: 0.682900 ms CreateObjectMapping: 1.378200 ms MarkObjects: 26.081800 ms  DeleteObjects: 0.203800 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Welcome to the Game!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:19)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 19)
+
+Use Arrow Keys or WASD to Move
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:20)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 20)
+
+Dodge the Obstacles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:21)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 21)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You've bumped into a thing this many times: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.697 ms
+	Integration:            283.869 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.024 ms
+	Total Operation Time:   286.598 ms
+Unloading 1 unused Assets / (365.4 KB). Loaded Objects now: 8959.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 28.936000 ms (FindLiveObjects: 0.760700 ms CreateObjectMapping: 1.302300 ms MarkObjects: 26.763300 ms  DeleteObjects: 0.108700 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Welcome to the Game!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:19)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 19)
+
+Use Arrow Keys or WASD to Move
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:20)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 20)
+
+Dodge the Obstacles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:21)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 21)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You've bumped into a thing this many times: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.829 ms
+	Integration:            239.171 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.016 ms
+	Total Operation Time:   240.017 ms
+Unloading 2 unused Assets / (343.5 KB). Loaded Objects now: 8995.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 27.127900 ms (FindLiveObjects: 0.686300 ms CreateObjectMapping: 1.160100 ms MarkObjects: 25.168600 ms  DeleteObjects: 0.112000 ms)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Welcome to the Game!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:19)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 19)
+
+Use Arrow Keys or WASD to Move
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:20)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 20)
+
+Dodge the Obstacles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:21)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 21)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You've bumped into a thing this many times: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.837 ms
+	Integration:            256.661 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.039 ms
+	Total Operation Time:   257.539 ms
+Unloading 1 unused Assets / (242.8 KB). Loaded Objects now: 9001.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 30.417200 ms (FindLiveObjects: 0.773100 ms CreateObjectMapping: 1.655400 ms MarkObjects: 27.923500 ms  DeleteObjects: 0.064000 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Welcome to the Game!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:19)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 19)
+
+Use Arrow Keys or WASD to Move
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:20)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 20)
+
+Dodge the Obstacles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:21)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 21)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You've bumped into a thing this many times: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.853 ms
+	Integration:            240.389 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   241.257 ms
+Unloading 1 unused Assets / (385.5 KB). Loaded Objects now: 9007.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 27.126800 ms (FindLiveObjects: 0.669500 ms CreateObjectMapping: 1.487400 ms MarkObjects: 24.849400 ms  DeleteObjects: 0.119300 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Welcome to the Game!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:19)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 19)
+
+Use Arrow Keys or WASD to Move
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:20)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 20)
+
+Dodge the Obstacles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:21)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 21)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You've bumped into a thing this many times: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.027 ms
+	Integration:            284.382 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.027 ms
+	Total Operation Time:   285.440 ms
+Unloading 1 unused Assets / (390.9 KB). Loaded Objects now: 9013.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 25.643900 ms (FindLiveObjects: 0.807200 ms CreateObjectMapping: 1.517700 ms MarkObjects: 23.173300 ms  DeleteObjects: 0.144300 ms)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Welcome to the Game!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:19)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 19)
+
+Use Arrow Keys or WASD to Move
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:20)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 20)
+
+Dodge the Obstacles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:21)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 21)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You've bumped into a thing this many times: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.846 ms
+	Integration:            236.922 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   237.792 ms
+Unloading 1 unused Assets / (0.5 MB). Loaded Objects now: 9019.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 28.689800 ms (FindLiveObjects: 0.653400 ms CreateObjectMapping: 1.180200 ms MarkObjects: 26.686100 ms  DeleteObjects: 0.168800 ms)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Welcome to the Game!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:19)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 19)
+
+Use Arrow Keys or WASD to Move
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:20)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 20)
+
+Dodge the Obstacles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:21)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 21)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You've bumped into a thing this many times: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.907 ms
+	Integration:            244.191 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.018 ms
+	Total Operation Time:   245.118 ms
+Unloading 1 unused Assets / (450.5 KB). Loaded Objects now: 9025.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 28.388500 ms (FindLiveObjects: 0.675700 ms CreateObjectMapping: 1.408300 ms MarkObjects: 26.147700 ms  DeleteObjects: 0.155700 ms)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Welcome to the Game!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:19)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 19)
+
+Use Arrow Keys or WASD to Move
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:20)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 20)
+
+Dodge the Obstacles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:21)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 21)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You've bumped into a thing this many times: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.736 ms
+	Integration:            273.100 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.050 ms
+	Total Operation Time:   274.892 ms
+Unloading 1 unused Assets / (467.3 KB). Loaded Objects now: 9031.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 26.954100 ms (FindLiveObjects: 0.588500 ms CreateObjectMapping: 1.352400 ms MarkObjects: 24.875400 ms  DeleteObjects: 0.136300 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Entering Playmode with Reload Scene disabled. If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Welcome to the Game!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:19)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 19)
+
+Use Arrow Keys or WASD to Move
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:20)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 20)
+
+Dodge the Obstacles
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+mover:PrintInstructions () (at Assets/Scripts/mover.cs:21)
+mover:Start () (at Assets/Scripts/mover.cs:9)
+
+(Filename: Assets/Scripts/mover.cs Line: 21)
+
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+You've bumped into a thing this many times: 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+You've bumped into a thing this many times: 4
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Scorer:OnCollisionEnter (UnityEngine.Collision) (at Assets/Scripts/Scorer.cs:12)
+UnityEngine.Physics:SendOnCollisionEnter (UnityEngine.Component,UnityEngine.Collision)
+UnityEngine.Physics:ReportContacts (Unity.Collections.NativeArray`1/ReadOnly<UnityEngine.ContactPairHeader>)
+UnityEngine.Physics:OnSceneContact (UnityEngine.PhysicsScene,intptr,int)
+
+(Filename: Assets/Scripts/Scorer.cs Line: 12)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.826 ms
+	Integration:            243.103 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   243.954 ms
+Unloading 1 unused Assets / (280.9 KB). Loaded Objects now: 9031.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 26.362700 ms (FindLiveObjects: 0.581300 ms CreateObjectMapping: 1.226000 ms MarkObjects: 24.484400 ms  DeleteObjects: 0.069800 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer disposed.
+GPU Resident Drawer created.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+Refreshing native plugins compatible for Editor in 3.23 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=4c136c995dabedc4fb7ba77122acd169): Total: 1.932 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=821 ms
+		Asset DB Callback time: managed=737 ms, native=371 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1375, non-scripts=2376
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	ApplyChangesToAssetFolders: 0.433ms
+	Scan: 311.546ms
+	Collect global state as custom dependencies: 0.188ms
+	OnSourceAssetsModified: 153.146ms
+	CategorizeScriptCompilationAssets: 0.101ms
+	ProcessAssetsWithTransientArtifactChanges: 0.401ms
+	CategorizeAssets: 22.700ms
+	CompileScripts: 0.620ms
+	ImportOutOfDateAssets: 73.088ms (20.581ms without children)
+		ReloadNativeAssets: 0.104ms
+		UnloadImportedAssets: 0.680ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.422ms
+		ImportSchedulerStart: 50.295ms
+	PostProcessAllAssets: 1086.603ms
+		XRBuildSystem.XRAssetImported 7.693ms
+		VersionControlSettings.HiddenFilePostprocess 0.299ms
+		MonoPostProcessAllAssets: 729.973ms
+			SyncVS.PostprocessSyncProject 636.677ms
+			AssetPostprocessor.OnPostprocessAllAssets 51.400ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 20.991ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 2.083ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.972ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.941ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.479ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.400ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 1.397ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 1.201ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.749ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.619ms
+			PostProcessor.OnPostprocessAllAssets 0.468ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.454ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.442ms
+			AssetChangedListener.OnPostprocessAllAssets 0.430ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.406ms
+			AssetEvents.OnPostprocessAllAssets 0.399ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.346ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.335ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.211ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.198ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.163ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.137ms
+	PostAssetChangesProfiler: 9.485ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.373ms
+	UnloadStreamsBegin: 5.437ms
+	PersistCurrentRevisions: 0.164ms
+	Untracked: 261.500ms
+
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 0.7335ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Projetos Unity/Obstacle Dodge
+[Worker0] Imported GUID: a6fe8f5e82a789d4db90ade715bbdb3d - Path: Assets/Scripts/Spinner.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c0a23404d74b838977336a1a47ba503f') in 0.3599099 seconds
+[Worker0] Imported GUID: a6fe8f5e82a789d4db90ade715bbdb3d - Path: Assets/Scripts/Spinner.cs - Importer: PreviewImporter -> (ImportResultId: 'ecd4f0440c17e6a8fcf7f7c2c0b2cd7e') in 0.0199191 seconds
+ExitCode: 4 Duration: 27s
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (22.75 seconds), 0 items updated, 0 evaluated
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Projetos Unity/Obstacle Dodge
+Asset Pipeline Refresh (id=cb061f7cf857f6e4b925238b8a9c0c9c): Total: 0.049 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+ExitCode: 0 Duration: 36s
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Projetos Unity/Obstacle Dodge
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 88.6174ms
+Asset Pipeline Refresh (id=85d855c78cffd7246a2275f92b7f5e5e): Total: 0.011 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=a19e180fc549e5b4e83dadf5f0eebcfe): Total: 0.007 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=b70bfde628f0c064fa7129fbd0cbae85): Total: 0.005 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=a886a4053fcd0174b9bd85780078933f): Total: 0.004 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 141 defines and 342 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 603.7095ms
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+Refreshing native plugins compatible for Editor in 12.31 ms, found 4 plugins.
+
+Asset Pipeline Refresh (id=8a35a133dc103c949a749ac0a165f325): Total: 1.174 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=179 ms
+		Asset DB Callback time: managed=962 ms, native=31 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=1375, non-scripts=2376
+		Asset File Changes: new=0, changed=0, moved=0, deleted=1
+		Scan Filter Count: 3
+	ApplyChangesToAssetFolders: 0.262ms
+	Scan: 22.347ms
+	Collect global state as custom dependencies: 0.065ms
+	OnSourceAssetsModified: 0.103ms
+	ProcessAssetsWithTransientArtifactChanges: 0.142ms
+	CategorizeAssets: 19.070ms
+	CompileScripts: 0.593ms
+	ImportOutOfDateAssets: 49.766ms (7.688ms without children)
+		UnloadImportedAssets: 0.223ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.540ms
+		ImportSchedulerStart: 41.273ms
+	PostProcessAllAssets: 957.372ms
+		XRBuildSystem.XRAssetImported 0.921ms
+		MonoPostProcessAllAssets: 956.233ms
+			SyncVS.PostprocessSyncProject 951.536ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.218ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.599ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.189ms
+			AssetChangedListener.OnPostprocessAllAssets 0.159ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.096ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.092ms
+	PostAssetChangesProfiler: 36.630ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.311ms
+	PersistCurrentRevisions: 0.144ms
+	Untracked: 87.445ms
+
+ExitCode: 1 Duration: 2m:01s
+Finished compiling graph: 973 nodes, 18954 flattened edges (15772 ToBuild, 150 ToUse), maximum node priority 1062
+[506/970    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[565/970    2s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[BUSY      16s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[BUSY      26s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[BUSY      36s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[BUSY      46s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[BUSY      56s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[962/970   57s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[963/970    1s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 141 defines and 342 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[964/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[965/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[BUSY       7s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[BUSY      17s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[BUSY      27s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[966/970   30s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+*** Tundra build interrupted (120.98 seconds - 0:02:00), 7 items updated, 965 evaluated
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 0.3141ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Projetos Unity/Obstacle Dodge
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Projetos Unity/Obstacle Dodge
+ExitCode: 4 Duration: 1s293ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (1.23 seconds), 0 items updated, 210 evaluated
+ExitCode: 0 Duration: 4s66ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Projetos Unity/Obstacle Dodge
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 1.1626ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 141 defines and 342 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 287.4425ms
+ExitCode: 0 Duration: 4s284ms
+Finished compiling graph: 973 nodes, 18954 flattened edges (15772 ToBuild, 150 ToUse), maximum node priority 1062
+[543/970    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[760/970    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[962/970    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[963/970    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[967/970    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 141 defines and 342 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[968/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[969/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (4.24 seconds), 7 items updated, 970 evaluated
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+GPU Resident Drawer disposed.
+SearchTask 'Merge' thread did not stop within 5 seconds.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Search.SearchTask`1<UnityEditor.Search.TaskData>:WaitForAllThreads ()
+UnityEditor.Search.SearchTask`1<UnityEditor.Search.TaskData>:CancelImmediateWithoutResolver ()
+UnityEditor.Search.SearchTask`1<UnityEditor.Search.TaskData>:CancelImmediate ()
+UnityEditor.Search.SearchTask`1<UnityEditor.Search.TaskData>:CancelChildrenImmediate ()
+UnityEditor.Search.SearchTask`1<UnityEditor.Search.TaskData>:CancelImmediateWithoutResolver ()
+UnityEditor.Search.SearchTask`1<UnityEditor.Search.TaskData>:CancelImmediate ()
+UnityEditor.Search.SearchTask`1<UnityEditor.Search.TaskData>:OnBeforeAssemblyReload ()
+UnityEditor.AssemblyReloadEvents:OnBeforeAssemblyReload ()
+
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at UnityEditor.Search.LMDBIndexStorage:RemoveDocuments_Injected <0x00077>
+	  at UnityEditor.Search.LMDBIndexStorage:RemoveDocuments <0x00072>
+	  at <>c__DisplayClass121_0:<ProcessIncrementalUpdate>b__1 <0x000f2>
+	  at <>c__DisplayClass106_0:<ProduceArtifactsAndMerge>b__2 <0x0002d>
+	  at <>c__DisplayClass70_0:<RunThread>b__0 <0x000c5>
+	  at System.Threading.ThreadHelper:ThreadStart_Context <0x000e1>
+	  at System.Threading.ExecutionContext:RunInternal <0x001dd>
+	  at System.Threading.ExecutionContext:Run <0x0002a>
+	  at System.Threading.ExecutionContext:Run <0x0005a>
+	  at System.Threading.ThreadHelper:ThreadStart <0x00062>
+	  at <Module>:runtime_invoke_void__this___object <0x000e8>
+=================================================================
+Crash!!!
+Total cache size 124196136
+Total cache size 124196136
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Mono;.;C:\Projetos Unity\Obstacle Dodge;C:\Projetos Unity\Obstacle Dodge\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'guilh'
+OS-Version: 10.0.0
+Total cache size after purge 124196136, took 00:00:51.0624662
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Unity.exe:Unity.exe (00007FF6B5140000), size: 290816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.5.2.29651
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFFE92B0000), size: 2064384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFFE91A0000), size: 794624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5915
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFFE6B80000), size: 3104768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6280
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFFE7520000), size: 1708032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFFE72A0000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFFE8830000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFFE6A30000), size: 1150976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFFE6990000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFFE7090000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\IMM32.DLL:IMM32.DLL (00007FFFE7450000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Unity.dll:Unity.dll (00007FFF83050000), size: 98828288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.5.2.29651
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\OpenRL.dll:OpenRL.dll (0000000180000000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFF90250000), size: 24559616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 26.0.0.0
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFFA2D00000), size: 8019968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.7.0
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFFE8D30000), size: 4653056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFFE8C70000), size: 724992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6328
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFFE7C50000), size: 7798784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFFE8870000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5915
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFFE7330000), size: 1179648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6280
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFFE7780000), size: 3489792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFFBDB80000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFFE7B40000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\etccompress.dll:etccompress.dll (00007FFFA2820000), size: 5070848 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFFE6940000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFFA7F20000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FFFE6B50000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5369
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFFE7480000), size: 651264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6328
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFFE8690000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFFE7AE0000), size: 372736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6392
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFFE6F30000), size: 1429504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFFE8740000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FFFE7220000), size: 471040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFFE8AC0000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FFFD8450000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.2403.8001
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFFAC0C0000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFFAD100000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 26.0.0.0
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFFA92B0000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFFD7DF0000), size: 557056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.44.35112.1
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFFD7E90000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.44.35112.1
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFFD7EB0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.44.35112.1
+C:\WINDOWS\SYSTEM32\MSVCP140_CODECVT_IDS.dll:MSVCP140_CODECVT_IDS.dll (00007FFFD80C0000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.44.35112.1
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (0000000066AA0000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.473
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (00000000669C0000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.473
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFFDB290000), size: 2101248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5848
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFFE0760000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.6456_none_60b8a6cb71f64256\COMCTL32.dll:COMCTL32.dll (00007FFFD8170000), size: 2732032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.19041.6456
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFFE24A0000), size: 2506752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFFE46C0000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\WINDOWS\SYSTEM32\d3d12.dll:d3d12.dll (00007FFFCE0A0000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFFE52E0000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFFE5180000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFFE5CD0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFFA8900000), size: 1212416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFFE1BA0000), size: 1089536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFFDC530000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFFBCD00000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FFFA5280000), size: 1789952 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\embree.dll:embree.dll (00007FFF92B80000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FFFD8050000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\tbb.dll:tbb.dll (00007FFFBC5C0000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.2022.1111
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFFE46F0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3758
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\FreeImage.dll:FreeImage.dll (0000015277CF0000), size: 5332992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (0000015278210000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FFFE5FF0000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5915
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FFFE6420000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\bcryptprimitives.dll:bcryptprimitives.dll (00007FFFE7190000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5007
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFFE4300000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FFFE49D0000), size: 8015872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\Wldp.dll:Wldp.dll (00007FFFE6290000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFFE6870000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6033
+C:\WINDOWS\SYSTEM32\secur32.dll:secur32.dll (00007FFFD7E80000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFFE6820000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6328
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFFE76D0000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFFD08A0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFFDAD90000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFFE61F0000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5856
+C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FFFDB010000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFFE5910000), size: 229376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6093
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FFFE4100000), size: 1794048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FFFE61E0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFFE8610000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FFFE2DB0000), size: 258048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FFFD86D0000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4239
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFFD0820000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFFD0020000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFFB9BD0000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFFE67F0000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26060.3008-0\MpOav.dll:MpOav.dll (00007FFFD5F60000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.26060.3008
+C:\WINDOWS\SYSTEM32\gpapi.dll:gpapi.dll (00007FFFE5190000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\Windows\System32\cryptnet.dll:cryptnet.dll (00007FFFE04D0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FFFE0E70000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFFE83C0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFFE0E50000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFFE0CD0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFFE5D10000), size: 827392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5369
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFFD4AE0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\pnrpnsp.dll:pnrpnsp.dll (00007FFFD4AC0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\NLAapi.dll:NLAapi.dll (00007FFFE3C10000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFFD4A10000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFFBC520000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5848
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFFDEE90000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6328
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFFDF500000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6328
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\AMDUnityPlugin.DLL:AMDUnityPlugin.DLL (00007FFFA1880000), size: 8843264 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFFA44A0000), size: 1646592 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFFCE960000), size: 352256 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFFE89A0000), size: 1134592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\TextShaping.dll:TextShaping.dll (00007FFFB9FB0000), size: 704512 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FFFCE240000), size: 1019904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFFE37B0000), size: 3518464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\CoreMessaging.dll:CoreMessaging.dll (00007FFFE3B10000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5915
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFFE5B60000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFFE2E00000), size: 1404928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\system32\explorerframe.dll:explorerframe.dll (00007FFFCC2B0000), size: 2457600 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6280
+C:\WINDOWS\system32\d2d1.dll:d2d1.dll (00007FFFE1EE0000), size: 6029312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\mfplat.dll:mfplat.dll (00007FFFBBD10000), size: 1818624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6280
+C:\WINDOWS\SYSTEM32\RTWorkQ.DLL:RTWorkQ.DLL (00007FFFCFD00000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4842
+C:\WINDOWS\SYSTEM32\mfreadwrite.dll:mfreadwrite.dll (00007FFF9F610000), size: 1085440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6033
+C:\WINDOWS\SYSTEM32\Mf.dll:Mf.dll (00007FFFBC3D0000), size: 544768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6033
+C:\WINDOWS\SYSTEM32\MFCORE.DLL:MFCORE.DLL (00007FFF991E0000), size: 4775936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FFFE67A0000), size: 307200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\ksuser.dll:ksuser.dll (00007FFFE3DA0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFFE6780000), size: 73728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\CompPkgSup.DLL:CompPkgSup.DLL (00007FFFDF510000), size: 225280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\Windows\System32\Windows.Media.dll:Windows.Media.dll (00007FFFB5A60000), size: 7495680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\Windows\System32\Windows.ApplicationModel.dll:Windows.ApplicationModel.dll (00007FFFCD1C0000), size: 954368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6216
+C:\Windows\System32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFFE0920000), size: 2109440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5848
+C:\Windows\System32\AppXDeploymentClient.dll:AppXDeploymentClient.dll (00007FFFE0FB0000), size: 1073152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FFFCDC40000), size: 1335296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFFE1150000), size: 544768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5915
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FFFE65F0000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FFFE1260000), size: 1576960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FFFE42E0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\D3D12\D3D12Core.dll:D3D12Core.dll (00007FFF981B0000), size: 4780032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.618.1.0
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFFDB200000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FFFE0310000), size: 1339392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FFFB7560000), size: 1339392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.5.420
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_d471cab2f241c3c2\nvppex.dll:nvppex.dll (00007FFFC5620000), size: 1798144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.8157
+C:\WINDOWS\SYSTEM32\D3DSCache.dll:D3DSCache.dll (00007FFFD8630000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_d471cab2f241c3c2\nvldumdx.dll:nvldumdx.dll (00007FFFDB020000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.8157
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_d471cab2f241c3c2\nvgpucomp64.dll:nvgpucomp64.dll (00007FFFD08C0000), size: 64569344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.8157
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_d471cab2f241c3c2\Display.NvContainer\NvMessageBus.dll:NvMessageBus.dll (00007FFFDC7C0000), size: 3551232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.15.3538.9611
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_d471cab2f241c3c2\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FFFCD310000), size: 909312 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_d471cab2f241c3c2\nvwgf2umx.dll:nvwgf2umx.dll (00007FFFC5900000), size: 92491776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.8157
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFFB9C60000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.6.0
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\radeonrays.dll:radeonrays.dll (00007FFFA8460000), size: 344064 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFF8F800000), size: 10760192 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Projetos Unity\Obstacle Dodge\Library\PackageCache\com.unity.burst@6bb9aca3ef38\.Runtime\MonoDebuggerHandling.dll:MonoDebuggerHandling.dll (00007FFF97120000), size: 368640 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\system32\apphelp.dll:apphelp.dll (00007FFFE3F30000), size: 606208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\Projetos Unity\Obstacle Dodge\Library\PackageCache\com.unity.burst@6bb9aca3ef38\.Runtime\burst-llvm-19.dll:burst-llvm-19.dll (00007FFF7C790000), size: 59863040 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\system32\dataexchange.dll:dataexchange.dll (00007FFFD8410000), size: 253952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\system32\dcomp.dll:dcomp.dll (00007FFFE32E0000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\Projetos Unity\Obstacle Dodge\Library\BurstCache\JIT\bd2b79ac73a860974646ab85ae53285d.dll:bd2b79ac73a860974646ab85ae53285d.dll (00007FFFC4AC0000), size: 57344 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Projetos Unity\Obstacle Dodge\Library\BurstCache\JIT\7b34530a110cf35c85a8584ab291156b.dll:7b34530a110cf35c85a8584ab291156b.dll (00007FFFC4A90000), size: 192512 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Projetos Unity\Obstacle Dodge\Library\BurstCache\JIT\31ce4e35d8ba01abaace4e86bdd4e14f.dll:31ce4e35d8ba01abaace4e86bdd4e14f.dll (00007FFFB9BF0000), size: 57344 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Projetos Unity\Obstacle Dodge\Library\BurstCache\JIT\ab1803190e8683ede2f0736c752d784f.dll:ab1803190e8683ede2f0736c752d784f.dll (00007FFFB9550000), size: 20480 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Projetos Unity\Obstacle Dodge\Library\BurstCache\JIT\e6473045b42ee6664b79b58f49ecc69c.dll:e6473045b42ee6664b79b58f49ecc69c.dll (00007FFFB9250000), size: 32768 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Projetos Unity\Obstacle Dodge\Library\BurstCache\JIT\df2475b99023dc8597cfc1c15a4f3a83.dll:df2475b99023dc8597cfc1c15a4f3a83.dll (00007FFFB8AC0000), size: 24576 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Projetos Unity\Obstacle Dodge\Library\BurstCache\JIT\b9d3cd1b89c1ef6a92fcd8b9cde4fb3c.dll:b9d3cd1b89c1ef6a92fcd8b9cde4fb3c.dll (00007FFFB72E0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Projetos Unity\Obstacle Dodge\Library\BurstCache\JIT\9fd9af7b34e0c050ff162a16da373e0b.dll:9fd9af7b34e0c050ff162a16da373e0b.dll (00007FFFB4C60000), size: 53248 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Projetos Unity\Obstacle Dodge\Library\BurstCache\JIT\21d2967bc2a2a8adc0d82954ee5cfde9.dll:21d2967bc2a2a8adc0d82954ee5cfde9.dll (00007FFFB4730000), size: 49152 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Projetos Unity\Obstacle Dodge\Library\BurstCache\JIT\fe7d925fe322e54b2f09545d3afcdf18.dll:fe7d925fe322e54b2f09545d3afcdf18.dll (00007FFFB27B0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (00007FFF9AAD0000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26200.1
+C:\WINDOWS\SYSTEM32\edputil.dll:edputil.dll (00007FFFBA0B0000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\System32\comdlg32.dll:comdlg32.dll (00007FFFE8B90000), size: 892928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5848
+C:\WINDOWS\system32\propsys.dll:propsys.dll (00007FFFE1620000), size: 999424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.5794
+C:\WINDOWS\System32\DUI70.dll:DUI70.dll (00007FFF9A2E0000), size: 1785856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\DUser.dll:DUser.dll (00007FFFCECA0000), size: 610304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\thumbcache.dll:thumbcache.dll (00007FFFCE9F0000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\Windows\System32\Windows.Globalization.dll:Windows.Globalization.dll (00007FFFB9D60000), size: 1728512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\Windows\System32\Bcp47Langs.dll:Bcp47Langs.dll (00007FFFD8060000), size: 372736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\Windows\System32\bcp47mrm.dll:bcp47mrm.dll (00007FFFCB550000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\globinputhost.dll:globinputhost.dll (00007FFFCFA90000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\Program Files\Common Files\microsoft shared\ink\tiptsf.dll:tiptsf.dll (00007FFF943C0000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\Windows\System32\Windows.FileExplorer.Common.dll:Windows.FileExplorer.Common.dll (00007FFFBBCA0000), size: 409600 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5848
+C:\Windows\System32\iertutil.dll:iertutil.dll (00007FFFDE390000), size: 2879488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.19041.6456
+C:\Windows\System32\netutils.dll:netutils.dll (00007FFFE5DE0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\srvcli.dll:srvcli.dll (00007FFFDE840000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\StructuredQuery.dll:StructuredQuery.dll (00007FFFBBEF0000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.5553
+C:\WINDOWS\SYSTEM32\atlthunk.dll:atlthunk.dll (00007FFFDC110000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\Windows.Storage.Search.dll:Windows.Storage.Search.dll (00007FFFBAAC0000), size: 815104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\Windows\System32\oleacc.dll:oleacc.dll (00007FFFDAB90000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.2.19041.3636
+C:\WINDOWS\SYSTEM32\MPR.dll:MPR.dll (00007FFFD7FA0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\drprov.dll:drprov.dll (00007FFFE3CE0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\WINSTA.dll:WINSTA.dll (00007FFFE6710000), size: 405504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\ntlanman.dll:ntlanman.dll (00007FFFD7640000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4842
+C:\WINDOWS\System32\davclnt.dll:davclnt.dll (00007FFFD74A0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\DAVHLPR.dll:DAVHLPR.dll (00007FFFE3C80000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\wkscli.dll:wkscli.dll (00007FFFE5A30000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\cscapi.dll:cscapi.dll (00007FFFD9430000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\twinapi.dll:twinapi.dll (00007FFFD4B40000), size: 688128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5848
+C:\Windows\System32\dlnashext.dll:dlnashext.dll (00007FFFD5B70000), size: 352256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\Windows\System32\PlayToDevice.dll:PlayToDevice.dll (00007FFF98BE0000), size: 409600 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\cldapi.dll:cldapi.dll (00007FFFBA140000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\FLTLIB.DLL:FLTLIB.DLL (00007FFFDFBE0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\NetworkExplorer.dll:NetworkExplorer.dll (00007FFFD85C0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\Users\guilh\AppData\Local\Microsoft\OneDrive\26.108.0607.0002\FileSyncShell64.dll:FileSyncShell64.dll (00007FFFB9630000), size: 3092480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 26.108.607.2
+C:\WINDOWS\SYSTEM32\WININET.dll:WININET.dll (00007FFFDA020000), size: 5070848 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.19041.5794
+C:\WINDOWS\SYSTEM32\WTSAPI32.dll:WTSAPI32.dll (00007FFFE2CB0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\DevDispItemProvider.dll:DevDispItemProvider.dll (00007FFFC4C40000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\mssprxy.dll:mssprxy.dll (00007FFFB9F10000), size: 163840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.6456
+C:\WINDOWS\SYSTEM32\ntshrui.dll:ntshrui.dll (00007FFFC1AE0000), size: 512000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\system32\wpdshext.dll:wpdshext.dll (00007FFF92550000), size: 659456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5553
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.6456_none_91a399b0cc88bc24\gdiplus.dll:gdiplus.dll (00007FFFCFE70000), size: 1736704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\Windows\System32\EhStorShell.dll:EhStorShell.dll (00007FFFCF1F0000), size: 225280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\policymanager.dll:policymanager.dll (00007FFFE1570000), size: 659456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\msvcp110_win.dll:msvcp110_win.dll (00007FFFE59A0000), size: 565248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\PortableDeviceApi.dll:PortableDeviceApi.dll (00007FFFB9B20000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5553
+C:\WINDOWS\System32\cscui.dll:cscui.dll (00007FFFBF170000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\Windows\System32\EhStorAPI.dll:EhStorAPI.dll (00007FFFDBFD0000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\urlmon.dll:urlmon.dll (00007FFFDE8D0000), size: 2039808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.19041.6456
+C:\WINDOWS\System32\coml2.dll:coml2.dll (00007FFFE87B0000), size: 495616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\LINKINFO.dll:LINKINFO.dll (00007FFFDF970000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\OneCoreUAPCommonProxyStub.dll:OneCoreUAPCommonProxyStub.dll (00007FFFDD360000), size: 8208384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5915
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FFF83B1CA7D (Unity) mdb_cursor_sibling
+0x00007FFF83B1C23C (Unity) mdb_cursor_prev
+0x00007FFF83B1BA0E (Unity) mdb_cursor_get
+0x00007FFF838E5CB2 (Unity) LMDB_Enumerator::Next
+0x00007FFF83AD5766 (Unity) LMDBIndexStorage::RemoveDocuments
+0x00007FFF838EBB5D (Unity) LMDB_Transaction::Run
+0x00007FFF83AD5BFD (Unity) LMDBIndexStorage::RemoveDocuments
+0x00007FFF83AC05A1 (Unity) LMDBIndexStorage_CUSTOM_RemoveDocuments
+0x0000015572750AE8 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.Search.LMDBIndexStorage:RemoveDocuments_Injected (intptr,string[],intptr)
+0x0000015572750A13 (Mono JIT Code) UnityEditor.Search.LMDBIndexStorage:RemoveDocuments (string[],UnityEditor.Search.SearchCancellationToken)
+0x000001557274D463 (Mono JIT Code) UnityEditor.Search.SearchDatabase/<>c__DisplayClass121_0:<ProcessIncrementalUpdate>b__1 (UnityEditor.Search.SearchTask`1<UnityEditor.Search.TaskData>)
+0x000001557274D0DE (Mono JIT Code) UnityEditor.Search.SearchDatabase/<>c__DisplayClass106_0:<ProduceArtifactsAndMerge>b__2 ()
+0x000001556DA4D806 (Mono JIT Code) UnityEditor.Search.SearchTask`1/<>c__DisplayClass70_0<T_REF>:<RunThread>b__0 (object)
+0x00000154A1EC9782 (Mono JIT Code) System.Threading.ThreadHelper:ThreadStart_Context (object)
+0x00000154A1EC837E (Mono JIT Code) System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+0x00000154A1EC787B (Mono JIT Code) System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+0x00000154A1EC778B (Mono JIT Code) System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+0x000001556DA4D573 (Mono JIT Code) System.Threading.ThreadHelper:ThreadStart (object)
+0x00000154733901A9 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+0x00007FFF8FA8755E (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\mini\mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007FFF8F9C91D4 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\object.c:3068] do_runtime_invoke 
+0x00007FFF8F9CC76A (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\object.c:4456] mono_runtime_delegate_try_invoke 
+0x00007FFF8F9F89DF (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\threads.c:1296] start_wrapper_internal 
+0x00007FFF8F9F8B9E (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\threads.c:1348] start_wrapper 
+0x00007FFFE91B7374 (KERNEL32) BaseThreadInitThunk
+0x00007FFFE92FCC91 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/guilh/AppData/Local/Temp/Unity/Editor/Crashes
