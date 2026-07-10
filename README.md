@@ -2,7 +2,7 @@
 
   My first 3d game using Unity 6 and C#, focusing on movement logic and dodging obstacles
 
-  ##Things I've Learned:
+  ###Things I've Learned:
 
   ### 1. Version Control With GitHub:
   
