@@ -1,0 +1,11 @@
+# Mark Unity auto-generated folders as "vendored"
+# so GiHub doesn't count these files in the repository's language statistics.
+
+Packages/** linguist-vendored
+ProjectSettings/** linguist-vendored
+UserSettings/** linguist-vendored
+Logs/** linguist-vendored
+.vscode/** linguist-vendored
+
+# Ensure C# is always recognized correctly
+*.cs linguist-language=C#
