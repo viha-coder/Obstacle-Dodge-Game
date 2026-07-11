@@ -1,23 +1,21 @@
 using UnityEngine;
 
 public class Spinner : MonoBehaviour
-{
-     
+{    float rotationSpeed = 150f;
+     Rigidbody rb;
         void Start()
     {
-        
+      rb = GetComponent<Rigidbody>();  
     }
 
-        void Update()
+        void FixedUpdate()
     { 
      SpinObject();  
     }
     void SpinObject()
      {      
-            float xAngle = 0f;
-            float yAngle = 150f*Time.deltaTime;
-            float zAngle = 0f;
-            transform.Rotate(xAngle, yAngle, zAngle);
+         Quaternion deltaRotation = Quaternion.Euler(0f, rotationSpeed * Time.fixedDeltaTime, 0f);
+         rb.MoveRotation(rb.rotation * deltaRotation);
      } 
       
       

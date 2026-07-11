@@ -3,16 +3,16 @@ using UnityEngine;
 public class mover : MonoBehaviour
 {
    [SerializeField] float moveSpeed = 10f;
-   
+    Rigidbody rb;
     void Start()
     {
+      rb = GetComponent<Rigidbody>();
       PrintInstructions();
     }
 
-    void Update()
+    void FixedUpdate()
     {  
-       MovePlayer();
-       
+      MovePlayer();
     } 
  void PrintInstructions()
     {
@@ -23,9 +23,9 @@ public class mover : MonoBehaviour
     
     void MovePlayer()
    {
-       float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
+       float xValue = Input.GetAxis("Horizontal") * moveSpeed;
        float yValue = 0f;
-       float zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
-       transform.Translate(xValue, yValue, zValue);
+       float zValue = Input.GetAxis("Vertical") *  moveSpeed;
+       rb.linearVelocity = new Vector3(xValue, yValue, zValue);
    }
 }
