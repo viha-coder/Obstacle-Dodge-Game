@@ -11,7 +11,9 @@
 - Understood the importance of '.gitignore' to exclude heavy Unity folders like 'Library'.
 - Learned how to fix repository lock errors by deleting the 'index.lock' file.
 - Understood GitHub's visual icons (Green '+' for new files, Yellow for modified files, Red for deleted files).
-
+- Learned how to configure '.gitignore' to exclude Folder like UserSettings and Logs.
+- Created a '.gitattributes' file using VS Code
+  
   ### C# and Variable Scope:
 
 - Understood the practical diferences between "Global Variables" (Fields at the top of the class) and "Local Variables" (created inside functions).
