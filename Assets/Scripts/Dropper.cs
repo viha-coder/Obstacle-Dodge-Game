@@ -6,8 +6,12 @@ public class Dropper : MonoBehaviour
     [SerializeField] float TimeToWait = 2f;
     MeshRenderer myMeshRenderer;
     Rigidbody myRigidBody;
+    float TimeWhenSpawned;
+    
     void Start()
-    {   
+    { 
+     TimeWhenSpawned = Time.time;
+     Debug.Log("Dropper script is active");  
      myMeshRenderer = GetComponent<MeshRenderer>();
      myRigidBody = GetComponent<Rigidbody>();
 
@@ -17,7 +21,7 @@ public class Dropper : MonoBehaviour
 
     void Update()
     {
-     if(Time.time > TimeToWait)
+     if(Time.time - TimeWhenSpawned > TimeToWait)
      {
         myMeshRenderer.enabled = true;
         myRigidBody.useGravity = true;
