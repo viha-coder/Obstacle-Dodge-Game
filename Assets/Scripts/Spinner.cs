@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public class Spinner : MonoBehaviour
-{    float rotationSpeed = 150f;
+{    [SerializeField] float rotationSpeed = 150f;
      Rigidbody rb;
         void Start()
     {
