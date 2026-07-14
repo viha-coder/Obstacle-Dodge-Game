@@ -6,7 +6,7 @@ ProjectSettings/** linguist-vendored
 UserSettings/** linguist-vendored
 Logs/** linguist-vendored
 .vscode/** linguist-vendored
-TutorialInfo/** linguist-vendored
+Assets/TutorialInfo/** linguist-vendored
 
 # Ensure C# is always recognized correctly
 *.cs linguist-language=C#
