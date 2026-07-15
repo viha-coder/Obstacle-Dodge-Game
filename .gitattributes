@@ -7,6 +7,7 @@ UserSettings/** linguist-vendored
 Logs/** linguist-vendored
 .vscode/** linguist-vendored
 Assets/TutorialInfo/** linguist-vendored
+Obstacle Dodge_WebGL/** linguist-vendored
 
 # Ensure C# is always recognized correctly
 *.cs linguist-language=C#
