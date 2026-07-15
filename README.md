@@ -58,4 +58,4 @@ My First game Using C# and Unity.
 - Implemented a life system on my own (not covered by the course yet): the player has 3 hits before the scene restarts.
 - Built my own map from scratch to practice applying everything learned, instead of just following the course's default layout.
 - Publesed a playable build via Unity Play, so the game can be tested directly in the browser.
-- Link: https://play.unity.com/en/games/a6322b5e-5f54-4734-95b0-dc4e06979259/obstacle-dodge-novo
+- Link: https://play.unity.com/en/games/a6322b5e-55f4-4734-95b0-dc4e06979259/obstacle-dodge-novo
