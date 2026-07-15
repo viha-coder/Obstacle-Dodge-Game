@@ -42,3 +42,20 @@
 
   - Learned that '[SerializeField]' references to scene objects (like the Player) don't carry over automatically when converting an object into a Prefab, since a Prefab needs to work independently of any specific scene.
   - Fixed broken Prefab instances where the Player reference was missing, causing the game to freeze.
+
+  ### Object Lifecycle:
+
+  - Learned that 'Start()' only runs once, the first time an object becomes active - it does NOT run again when an object is reactivated via 'SetActive(true).
+  - Fixed a bug in 'FlyAtPlayer.cs' where the target position was only captured once (in 'Start()'), causing projectiles to always aim at an outdated player position instead of where the player actually was when relaunched.
+ 
+  ### Timers and Scene Restarts:
+
+  - Fixed a bug in 'Dropper.cs' where obstacles ignored their spawn after the scene restarted. The cause: comparing 'Time.time' directly against a fixed delay only works once, since 'Time.time' keeps counting from the moment the game started, not from when each object was created.
+  - Solved by storing the moment each object was created ('TimeWhenSpawned = Time.time' in 'Start()') and comparing the elapsed time since then ('Time.time - TimeWhenSpawned > TimeToWait') instead of comparing against global game time.
+ 
+  ### Finishing the First Game:
+
+  - Implemented a life system on my own (not covered by the course yet): the player has 3 hits before the scene restarts.
+  - Built my own map from scratch to practice applying everything learned, instead of just following the course's default layout.
+  - Publesed a playable build via Unity Play, so the game can be tested directly in the browser.
+  - Link: https://play.unity.com/en/games/a6322b5e-55f4-4734-95b0-dc4e06979259/obstacle-dodge-novo
