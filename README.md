@@ -1,19 +1,6 @@
 # Obstacle Dodge
 
-A fast-paced Unity C# arcade game where you dodge incoming obstacles, survive as long as you can, and try to beat your best score. Playable in the browser or run locally with Unity.
-
-[Play in browser →](https://play.unity.com/en/games/a6322b5e-5f54-4734-95b0-dc4e06979259/obstacle-dodge-novo) · [How to play →](./How%20to%20Play)
-
-<!-- Replace `assets/demo.gif` with the path to a small trailer GIF in your repo or Releases -->
-
-![Demo GIF](assets/demo.gif)
-
-## TL;DR
-- One-line pitch: Simple, responsive obstacle-dodging with tight controls and progressive difficulty.
-- Quick play: Click “Play in browser” to try it instantly.
-- Built with: C# · Unity
-
----
+My First game Using C# and Unity.
 
 ## Things I've Learned:
 
